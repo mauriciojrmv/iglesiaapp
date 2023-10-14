@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.Miembro.Miembro">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tituloMiembros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="MIEMBROS"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/tituloId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextId"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/btnBuscarMiembro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buscar" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tituloNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE" />
+
+        <EditText
+            android:id="@+id/editTextNombreMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tituloApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APELLIDO" />
+
+        <EditText
+            android:id="@+id/editTextApellidoMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tituloCarnet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARNET" />
+
+        <EditText
+            android:id="@+id/editTextCarnetMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tituloTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TELEFONO" />
+
+        <EditText
+            android:id="@+id/editTextTelefonoMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnAddMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="AGREGAR" />
+
+        <Button
+            android:id="@+id/btnShowMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MOSTRAR MIEMBROS" />
+
+
+        <Button
+            android:id="@+id/btnDeleteMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ELIMINAR" />
+
+
+        <Button
+            android:id="@+id/btnEditMiembro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR" />
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIMPIAR CAMPOS" />
+
+    </LinearLayout>
+</RelativeLayout>

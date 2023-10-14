@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controlador.Cargo.Cargo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tituloPrincipalCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="CARGOS"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tituloId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID" />
+
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+             <EditText
+                 android:id="@+id/editTextIdCargo"
+                 android:layout_width="225dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="10dp"
+                 android:ems="10"
+                 android:inputType="number" />
+
+             <Button
+                 android:id="@+id/btnBuscarCargo"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:text="Buscar" />
+
+         </LinearLayout>
+
+        <TextView
+            android:id="@+id/tituloCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITULO" />
+
+        <EditText
+            android:id="@+id/editTextTituloCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/descripcionCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPCION" />
+
+        <EditText
+            android:id="@+id/editTextDescripcionCargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginBottom="10dp"
+            />
+
+
+        <Button
+            android:id="@+id/btnAddCargo"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="AGREGAR" />
+
+        <Button
+            android:id="@+id/btnShowCargo"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="MOSTRAR CATEGORIAS" />
+
+        <Button
+            android:id="@+id/btnDeleteCargo"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="ELIMINAR" />
+
+        <Button
+            android:id="@+id/btnEditCargo"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="ACTUALIZAR" />
+
+        <Button
+            android:id="@+id/btnLimpiarCargo"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="LIMPIAR CAMPOS" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
